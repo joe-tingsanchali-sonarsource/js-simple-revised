@@ -13,6 +13,8 @@ jobs:
     # runs-on: ubuntu-latest
     # runs-on: self-hosted
     runs-on: arc-runner-set
+    container:
+      image: node:18
     
     steps:
       - uses: actions/checkout@v4
