@@ -11,11 +11,11 @@ jobs:
   build:
     name: Build and analyze
     # runs-on: ubuntu-latest
-    runs-on: ubuntu-latest
+    # runs-on: self-hosted
+    runs-on: arc-runner-set
     container:
       image: node:18
-#     runs-on: self-hosted
-    
+
     steps:
       - uses: actions/checkout@v4
         with:
