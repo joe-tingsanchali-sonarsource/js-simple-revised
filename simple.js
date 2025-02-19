@@ -6,3 +6,4 @@ l=0;
 elmo=9;
 yammer=2398;
 hammerTime=🔨 ;
+doubleHammerTime=🔨🔨;
