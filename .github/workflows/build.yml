@@ -24,6 +24,7 @@ jobs:
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
+          GITHUB_ACTIONS: true
         with:
           args: -Dsonar.verbose=true
       - name: ====LIST OF ENV VARIABLES====
